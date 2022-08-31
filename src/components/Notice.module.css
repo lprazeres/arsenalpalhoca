@@ -1,0 +1,51 @@
+.body {
+    border-top: solid var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainTitle {
+    text-align: center;
+    font-size: 0.5rem;
+}
+
+.rowNotice {
+    display: flex;
+    border-top: solid var(--white);
+}
+.noticeBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.2rem;
+    background: var(--red-50);
+    padding-top: 3.12rem;
+    padding-bottom: 1.25rem;
+    border-left: solid 1px var(--white);
+}
+
+.noticeBox img {
+    width: 18.75rem;
+    height: 15.625rem;
+    margin-bottom: 1.06rem;
+    border: solid var(--white);
+    border-radius: 1.87rem;
+}
+.noticeBox h2 {
+    background: var(--gray-300);
+    color: var(--gray-900);
+    text-align: center;
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+.noticeBox button:hover {
+    color: var(--red-50);
+}
+
+@media (max-width: 37.5rem){
+    .secondRow{
+        display: none;
+    }
+}
+
